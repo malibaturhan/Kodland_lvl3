@@ -15,17 +15,17 @@ tamamlanmış olarak işaretlenebilir. Kullanıcıların isim değişikliği yap
 ## Test Etme Şekli
 Testler teker teker çalıştırılmalı. Toplu olarak paralel biçimde çalıştıkları için çakışmaya sebebiyet veriyorlar. Dört görev için ana dizinde terminale aşağıdaki komutlar yazılarak çalıştırılabilir.
 
-''sh
+'''
 python -m unittest tests/test_add_task.py
-''
+'''
 
-''sh
+'''
 python -m unittest tests/test_delete_task.py
-''
+'''
 
-''sh
+'''
 python -m unittest tests/test_complete_task.py
-''
+'''
 
 ''sh
 python -m unittest tests/test_show_task.py
